@@ -9,11 +9,14 @@ const About = () => {
       <main className="grow">
 
         {/* page illustrator */}
-        <PageIllustration />
+        <div className="relative max-w-6xl mx-auto h-0 pointer-events-none" aria-hidden="true">
+          <PageIllustration />
+        </div>
 
         {/* about section */}
         <FeaturesZigzag />
         <FeaturesBlocks />
+        {/*  */}
       </main>
      
     </div>

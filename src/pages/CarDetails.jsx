@@ -1,9 +1,6 @@
 import React from 'react'
-import Cars from '../partials/Cars'
-import PageIllustration from '../partials/PageIllustration'
-import Testimonials from '../partials/Testimonials'
 
-const Service = () => {
+const CarDetails = () => {
   return (
     <div className="flex flex-col min-h-screen overflow-hidden">
 
@@ -15,15 +12,17 @@ const Service = () => {
           <div className="relative max-w-6xl mx-auto h-0 pointer-events-none" aria-hidden="true">
             <PageIllustration />
           </div>
-
-          {/* service section */}
-          <Cars />
-          {/* <Testimonials /> */}
-
+          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
+                <h1 className="h1">
+                  Page Under construction !
+                </h1>
+                <a className="btn text-purple-600 bg-purple-100 hover:bg-white shadow" href="/">Back Home</a>
+              </div>
+          
       </main>
      
     </div>
   )
 }
 
-export default Service
+export default CarDetails

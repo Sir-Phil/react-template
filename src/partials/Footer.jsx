@@ -43,45 +43,45 @@ function Footer() {
 
               {/* 3rd block */}
               <div className="text-sm">
-                <h6 className="text-gray-200 font-medium mb-1">Resources</h6>
+                <h6 className="text-gray-200 font-medium mb-1">Office Address</h6>
                 <ul>
                   <li className="mb-1">
+                    <p to="#" className="text-gray-400">No.7 Water Resources</p>
+                  </li>
+                  <li className="mb-1">
+                    <p to="#" className="text-gray-400 ">Warri, Delta State.</p>
+                  </li>
+                  <li className="mb-1">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" height={30} width={30} ><path d="M8.76,13a3.19,3.19,0,0,0,4-.44l.45-.44a1.08,1.08,0,0,0,0-1.51L11.3,8.72a1.07,1.07,0,0,0-1.5,0h0a1.08,1.08,0,0,1-1.51,0l-3-3a1.06,1.06,0,0,1,0-1.51h0a1.07,1.07,0,0,0,0-1.5L3.39.81a1.08,1.08,0,0,0-1.51,0l-.44.45a3.19,3.19,0,0,0-.44,4A28.94,28.94,0,0,0,8.76,13Z" fill="none" stroke="#efebeb" strokeLinecap="round" strokeLinejoin="round" /></svg>
+                  </li>
+                  <li className="mb-1">
+                    <a href="tel:+2340928073950" className="text-gray-400 ">+234-(9028073950)</a>
+                  </li>
+                  {/* <li className="mb-1">
                     <Link to="#" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Nostrud exercitation</Link>
-                  </li>
-                  <li className="mb-1">
-                    <Link to="#" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Visual mockups</Link>
-                  </li>
-                  <li className="mb-1">
-                    <Link to="#" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Nostrud exercitation</Link>
-                  </li>
-                  <li className="mb-1">
-                    <Link to="#" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Visual mockups</Link>
-                  </li>
-                  <li className="mb-1">
-                    <Link to="#" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Nostrud exercitation</Link>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
 
               {/* 4th block */}
               <div className="text-sm">
-                <h6 className="text-gray-200 font-medium mb-1">Company</h6>
+                <h6 className="text-gray-200 font-medium mb-1">Open</h6>
                 <ul>
                   <li className="mb-1">
-                    <Link to="#" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Consectetur adipiscing</Link>
+                    <Link to="#" className="text-gray-400">Mon-Fri / 24Hrs</Link>
                   </li>
                   <li className="mb-1">
+                  <svg viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg" height={30} width={30} ><path d="M5.818,10.992,8,13.171a1.124,1.124,0,0,0,1.861-.439L13.442,1.979A1.123,1.123,0,0,0,12.021.558L1.268,4.142A1.124,1.124,0,0,0,.829,6L3.57,8.744l-.093,3.465Z" fill="none" stroke="#eae1e1" strokeLinecap="round" strokeLinejoin="round" /><path d="M13.121 0.782L3.57 8.744" fill="none" stroke="#eae1e1" strokeLinecap="round" strokeLinejoin="round" /></svg>
+                  </li>
+                  <li className="mb-1">
+                    <a href="mailto:wjmotors@gmail.com" className="text-gray-400">wjmotors@gmail.com</a>
+                  </li>
+                  {/* <li className="mb-1">
                     <Link to="#" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Labore et dolore</Link>
                   </li>
                   <li className="mb-1">
                     <Link to="#" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Consectetur adipiscing</Link>
-                  </li>
-                  <li className="mb-1">
-                    <Link to="#" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Labore et dolore</Link>
-                  </li>
-                  <li className="mb-1">
-                    <Link to="#" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Consectetur adipiscing</Link>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
 

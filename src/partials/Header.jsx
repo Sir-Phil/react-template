@@ -40,7 +40,7 @@ function Header() {
           <div className="shrink-0 mr-4">
             {/* Logo */}
             <Link to="/" className="block" aria-label="Cruip">
-              <img src={Logo_nav} alt=""  className="w-64 h-15 fill-current text-[#a9a9ff]" viewBox="0 0 32 32"/>
+              <img src={Logo_nav} alt=""  className="max-w-[200px] fill-current text-[#a9a9ff]" viewBox="0 0 32 32"/>
             </Link>
           </div>
 

@@ -19,6 +19,7 @@ import Service from './pages/Service';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Footer from './partials/Footer';
+import CreateCar from './pages/Admin/CreateCar';
 
 function App() {
 
@@ -50,6 +51,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/service" element={<Service />} />
         <Route path="/contact" element={<Contact />} /> 
+        <Route path="/wjm_admin" element={<CreateCar />} />
         <Route path="/signup" element={<SignUp />} />
         <Route path="/reset-password" element={<ResetPassword />} />
       </Routes>

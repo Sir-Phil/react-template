@@ -30,15 +30,16 @@ const Contact = () => {
         >
           <PageIllustration />
         </div>
+        
 
         <section className="relative">
           <div className="max-w-6xl mx-auto px-4 sm:px-6">
             <div className="pt-32 pb-12 md:pt-40 md:pb-20">
               {/* Page header */}
               <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-                <h1 className="h1">
+                <h2 className="h2">
                   Contact W.J Motors, We responds to all your messages.
-                </h1>
+                </h2>
               </div>
               <div className="max-w-sm mx-auto">
               <form>

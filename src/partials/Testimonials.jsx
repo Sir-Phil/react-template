@@ -12,12 +12,12 @@ function Testimonials() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 mb-4">Our Services</h2>
-            <p className="text-xl text-gray-400">Vitae aliquet nec ullamcorper sit amet risus nullam eget felis semper quis lectus nulla at volutpat diam ut venenatis tellus—in ornare.</p>
+            <h2 className="h2 mb-4">Car Fleet</h2>
+            <p className="text-xl text-gray-400">We deliver the best, in cars purchase and services.</p>
           </div>
 
           {/* Testimonials */}
-          <div className="max-w-sm mx-auto grid gap-8 lg:grid-cols-3 lg:gap-6 items-start lg:max-w-none">
+          <div className="max-w-sm mx-6 grid gap-8 lg:grid-cols-3 lg:gap-6 items-start lg:max-w-none">
 
             {/* 1st testimonial */}
             <div className="flex flex-col h-full rounded-[15px] bg-gray-800" data-aos="fade-up">

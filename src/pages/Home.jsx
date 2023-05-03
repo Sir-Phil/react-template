@@ -9,6 +9,9 @@ import Testimonials from '../partials/Testimonials';
 import Newsletter from '../partials/Newsletter';
 import Banner from '../partials/Banner';
 import Footer from '../partials/Footer';
+import Carousel from '../partials/Carousel';
+import Cars from '../partials/Cars';
+import NewCar from '../partials/NewCar';
 
 function Home() {
   return (
@@ -24,11 +27,11 @@ function Home() {
         </div>
 
         {/*  Page sections */}
-        <HeroHome />
+        <Carousel />
         {/* <FeaturesBlocks /> */}
         <FeaturesZigZag />
-        <Testimonials />
-        <Newsletter />
+        <NewCar/>
+        {/* <Newsletter /> */}
       </main>
 
       {/* <Banner /> */}

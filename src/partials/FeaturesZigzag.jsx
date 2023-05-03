@@ -7,12 +7,12 @@ import FeatImage03 from '../images/features-03-image-03.png';
 function FeaturesZigzag() {
   return (
     <section>
-      <div className="max-w-6xl mx-auto px-4 sm:px-6">
+      <div className="max-w-6xl mt-9 mx-auto px-4 sm:px-6">
         <div className="py-12 md:py-20 border-t border-gray-800">
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <div className="inline-flex text-sm font-semibold py-1 px-3 m-2 text-green-600 bg-green-200 rounded-full mb-4">About Us</div>
+            <h2 className="h2 inline-flex text-lg font-semibold py-1 px-3 m-2 text-gray-100 bg-[#a9a9ff] rounded-full uppercase mb-4">About Us</h2>
             <h1 className="h2 mb-4">Best Product, Limitless Services</h1>
             <p className="text-xl text-gray-400">Our cars are purchased from a best dealers. Ensuring the service we product from our products stands-outs.</p>
           </div>
@@ -29,7 +29,7 @@ function FeaturesZigzag() {
               {/* Content */}
               <div className="bg-gray-800 p-9 max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-right">
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
-                  <div className="font-architects-daughter text-xl text-purple-600 mb-2">About WJM</div>
+                  <div className="font-architects-daughter font-bold text-xl text-[#a9a9ff] mb-2">About WJM</div>
                   <h3 className="h3 mb-3">Sales of clean and affordable cars</h3>
                   <p className="text-xl text-gray-400 mb-4">We deal on sales of clean luxury and exotic cars of any types to our customer and deliver to your destination. Such as:</p>
                   <ul className="text-lg text-gray-400 -mb-2">
